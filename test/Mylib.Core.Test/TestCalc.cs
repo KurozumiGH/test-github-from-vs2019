@@ -14,5 +14,11 @@ namespace Mylib.Core.Test
             Assert.Equals(0, Calc.Sum(0, 0));
             Assert.Equals(0, Calc.Sum(-5, 5));
         }
+
+        [TestMethod]
+        public void TestError()
+        {
+            Assert.Equals(0, Calc.Sum(10, 20)); // NG
+        }
     }
 }
