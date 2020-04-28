@@ -1,0 +1,3 @@
+language: csharp
+solution: test-github-from-vs2019.sln
+
