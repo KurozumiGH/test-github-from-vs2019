@@ -8,7 +8,9 @@ namespace MyLib.xTest
         [Fact]
         public void TestCalc()
         {
-            Calc.Add(1, 2);
+            Assert.Equal(3, Calc.Add(1, 2));
+            Assert.Equal(3, Calc.Add(4, -1));
+            Assert.Equal(0, Calc.Add(0, 0));
         }
     }
 }
