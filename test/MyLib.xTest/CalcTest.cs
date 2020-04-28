@@ -12,6 +12,8 @@ namespace MyLib.xTest
             Assert.Equal(3, Calc.Add(4, -1));
             Assert.Equal(0, Calc.Add(0, 0));
             Assert.Equal(0, Calc.Add(-1, 1));
+
+            Assert.Equal(-3, Calc.Add(-1, -2));
         }
     }
 }
